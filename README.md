@@ -12,7 +12,7 @@ produced from `test_foo.ipynb`.
 
 The basic ideas is to write the tests as conventional test code (for
 example one per cell, if we write the tests in test_foo.ipynb, but we
-could also just write the tests in a normal python file test_foo.pi),
+could also just write the tests in a normal python file test_foo.py),
 and to convert the notebook with the implementation of the tested
 functionality to another python file, and run testing on the resulting
 python files.

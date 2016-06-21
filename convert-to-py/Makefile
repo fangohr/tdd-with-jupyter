@@ -7,3 +7,5 @@ test_foo.py: test_foo.ipynb
 foo.py: foo.ipynb
 	jupyter nbconvert foo.ipynb --to python
 
+clean:
+	rm -f test_foo.py foo.py
